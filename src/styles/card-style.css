@@ -1,0 +1,35 @@
+@font-face {
+  font-family: gloria;
+  src: url(./GloriaHallelujah-Regular.ttf);
+}
+
+body {
+  background-color: #87cefa;
+  font-family: gloria;
+}
+
+h1,
+h3,
+h4 {
+  text-align: center;
+  color: yellow;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
